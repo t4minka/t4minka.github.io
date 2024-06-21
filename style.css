@@ -3,54 +3,29 @@
     src: url(subset-Iosevka-Term.woff2);
 }
 
-.header {
-    font-family: 'Iosevka Web';
-    display: flex;
-    color: white;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 2em;
-    padding-right: 2em;
-    font-size: 1em;
-}
-
-.header-left {
-    padding-top: 3em;
-    font-size: 1em;
-}
-
-.header-right {
-    padding-top: 3em;
-    font-size: 1em;
-}
-
 .description {
     font-family: 'Iosevka Web';
     color: white;
     display: flex;
     justify-content: space-evenly;
-    padding-left: 2em;
-    padding-right: 2em;
-    font-size: 1em;
-}
-
-.cat {
+    padding: 2em;
     font-size: 1em;
 }
 
 body {
     background-color: black;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
-    background-size: 3em 3em;
-    background-position: -2em -2em;
-    z-index: -1;
+    color: white;
 }
+
+a { text-decoration: none; color: white;}
+
+a:hover { text-decoration: underline; }
 
 .section {
     display: flex;
     flex-direction: row;
     overflow-wrap: break-word;
-    max-width: 600px;
+    max-width: 800px;
     font-size: 1em;
 }
 
